@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(19, 17, 17) 0%, rgb(34, 34, 34) 100%);
+}
+
+header {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 10px 35px;
+    color: white;
+    border-radius: 15px;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    background: linear-gradient(90deg, #aa008e 0%, rgb(255, 31, 255) 100%);
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-content img {
+    width: 550px;
+    margin-top: 100px;
+}
+
+.content {
+    padding: 150px 50px 0px 0px;
+}
+
+.content h1 {
+    color: rgb(187, 18, 187);
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.content p {
+    font-weight: 600;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    margin-top: 80px;
+    font-weight: 600;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-1:hover {
+    background: linear-gradient(90deg, #aa008e 0%, rgb(255, 31, 255) 100%);
+}
+
+.services {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.service {
+    padding: 25px 35px;
+    margin: 0px 10px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 40px;
+}
+
+.service h3 {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    border-radius: 25px;
+}
+
+.guias {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 120px 0px;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.guia {
+    padding: 25px 35px;
+    margin: 0px 10px;
+    margin-bottom: 25px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 40px;
+}
+
+.guia h3 {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    border-radius: 25px;
+}
+
+.guias img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 700px;
+    height: auto;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.comando h3 {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    border-radius: 25px;
+}
+
+.comandos {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 120px 0px;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+
+.comando {
+    padding: 25px 35px;
+    margin: 0px 10px;
+    margin-bottom: 25px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 40px;
+}
+
+.bts {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    border-radius: 25px;
+    color: white;
+}
+
+.comando h3 {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    border-radius: 25px;
+}
+
+.bts:hover {
+    background: linear-gradient(90deg, #aa008e 0%, rgb(255, 31, 255) 100%);
+}
+
+.feature {
+    margin-right: 155px;
+}
+
+.feature p {
+    font-weight: 600;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.feature h2 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    color: rgb(187, 18, 187);
+}
+
+.tfeature {
+    margin-right: 155px;
+}
+
+.tfeature p {
+    font-weight: 600;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.tfeature h2 {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    color: rgb(187, 18, 187);
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 30px 0px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enlace h3 {
+    font-size: 25px;
+}
+
+.enlace {
+    display: flex;
+}
+
+.formulario {
+    display: flex;
+    background: linear-gradient(90deg, rgb(178, 131, 182) 0%, rgb(250, 180, 215) 100%);
+    height: 750px;
+    width: 1100px;
+    box-shadow: 0 0 20px rgb(19, 17, 17);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+}
+
+.formu {
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formu h2 {
+    color: rgb(187, 18, 187);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.formu p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.box {
+    border: 0;
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.submit {
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    border: 0;
+    padding: 15px;
+    color: black;
+    border-radius: 25px;
+    width: 250px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(255, 31, 255);
+}
+
+.submit:hover {
+    background: linear-gradient(90deg, #aa008e 0%, rgb(255, 31, 255) 100%);
+}
+
+.info {
+    padding: 50px;
+
+}
+
+.img-1 {
+    width: 350px;
+    margin-bottom: 75px;
+}
+
+#reporte-enviado {
+    display: none;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: black;
+    background: linear-gradient(90deg, rgb(178, 131, 182) 0%, rgb(250, 180, 215) 100%);
+    box-shadow: 0 0 10px #f51cd1;
+}
+
+#reporte-enviado h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #f51cd1
+
+}
+
+#reporte-enviado p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.v-btn {
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, purple 0%, #f51cd1 100%);
+    border-radius: 25px;
+    color: white;
+    pointer-events: auto;
+}
+
+.enviado-activo {
+    overflow: hidden;
+    pointer-events: none;
+}
+
+
+
+.error-mensaje {
+    font-size: 10px;
+    color: #ff0000;
+}
+
+@media(max-width: 991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(31, 30, 30);
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .menu .navbar ul li a {
+        margin: 10px;
+        padding: 15px 35px;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    header {
+        height: 0vh;
+        padding: 400px 0px 340px 0px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px 30px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .content h1 {
+        margin-top: 0;
+    } 
+
+    .content p {
+        margin-top: 15px;
+    }
+
+    .btn-1 {
+        margin-top: 15px;
+    }
+
+    .header-content img {
+        margin-top: 45px;
+        width: 200px;
+    }
+
+    .services {
+        flex-direction: column;
+        padding: 30px 30px 0px 30px;
+    }
+
+    .service {
+        margin-bottom: 30px;
+    }
+
+    .guias {
+        flex-direction: column;
+        padding: 30px 30px 0px 30px;
+    }
+
+    .guia {
+        margin-bottom: 30px;
+    }
+
+    .comandos {
+        flex-direction: column;
+        padding: 30px 30px 0px 30px;
+    }
+
+    .comando {
+        margin-bottom: 30px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px;
+        text-align: center;
+    }
+
+    .features img {
+        width: 150px;
+        margin-top: 35px;
+    }
+
+    .feature {
+        margin: 0px;
+
+    }
+
+    .tfeatures {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px;
+        text-align: center;
+    }
+
+    .tfeature {
+        margin: 0px;
+
+    }
+
+    .contacts {
+        padding: 50px 30px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contacts img {
+        display: none;
+    }
+
+    .contact h2 {
+        font-size: 25px;
+    }
+
+    .btn-2 {
+        margin-bottom: 25px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .enlaces {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .enlace {
+        flex-direction: column;
+    }
+
+    .formulario {
+        width: 350px;
+        height: 800px;
+        margin-top: 50px;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .formu {
+        width: 100%;
+        padding: 30px;
+    }
+
+}

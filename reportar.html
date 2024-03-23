@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="7GAOVFbm-xy-cIUkgHkLgY_PjhVUIQlkFUtSVZ38BiA" />
+    <link rel="stylesheet" href="style.css">
+    <title>Reportes Tickets Draking</title>
+</head>
+<body>
+    <div class="formulario">
+        <form class="formu" id="myForm">
+            <h2>Tickets Draking Reportar</h2>
+            <p>
+                ¿Qué esperas para reportar los bugs, servidores o usuarios de Tickets Draking?
+            </p>
+
+            <label for="nombre">Escribe tu Nombre</label>
+            <span id="mensaje-nombre"></span>
+            <input type="text" id="nombre" class="box">
+
+            <label for="correo">Escribe tu Correo</label>
+            <span id="mensaje-correo"></span>
+            <input type="email" id="correo" class="box">
+
+            <label for="reporte">Escribe tu Reporte</label>
+            <span id="mensaje-reporte"></span>
+            <textarea class="box" id="reporte" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar" class="submit">
+        </form>
+
+        <div class="info">
+            <img src="logo.png" class="img-1" alt="">
+        </div>
+
+    </div>
+    <footer>
+
+        <div class="container">
+
+            <div class="enlaces">
+                <h3>© Copyright - Tickets Draking</h3>
+                <div class="enlace">
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div class="enviado" id="reporte-enviado">
+        <h1>Reporte Enviado</h1>
+        <p>Tu reporte ha sido enviado correctamente, Gracias por tu reporte...</p>
+        <a href="index.html" class="v-btn">Volver</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
