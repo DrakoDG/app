@@ -3,7 +3,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const nombre = document.getElementById('nombre').value;
     const correo = document.getElementById('correo').value;
     const reporte = document.getElementById('reporte').value;
-    const webhookURL = 'https://discord.com/api/webhooks/1218809165359743006/wpAj3nHCVNeF-Vb5YHMq-SEynIlgt6mTgT4uv-2ja-dAjjFmNzmawf62JULOJqlAqm9k';
+    const webhookURL = 'https://discord.com/api/webhooks/1218809171844272158/GZ6gG_69DR0BWF6rEDxqa2A-VRhqebLK4HYi8I0re8bwPxR0v9_oWxwxaiLxaHv2Z31v';
 
     function mostrarError(elemento, mensaje) {
         const mensajeElemento = document.getElementById(elemento);
